@@ -1,0 +1,148 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    /* background: white; */
+}
+
+::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 20px;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.logo h1{
+    color: white;
+}
+.logo h1 i{
+    font-size: 2rem;
+    border-radius:50%;
+    padding: 7px;
+    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    box-shadow: 0px 15px 24px 3px rgba(251, 161, 40, 0.42);
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+ul li{
+    list-style: none;
+    color: white;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li a i{
+    color: grey;
+}
+.hamburger{
+    display: none;
+}
+.background{
+    position: relative;
+}
+.background video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.small{
+    text-align: center;
+    font-size:1.7rem;
+    font-weight: 700;
+    margin-bottom: -15px;
+}
+.large{
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: grey;
+}
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 40px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.name{
+    margin-top: 20px;
+}
+.name,
+.Email,
+.phonenumber,
+.description{
+    margin-top: 20px;
+}
+.name label,.Email label, .phonenumber label, .description label{
+    display: block;
+    margin-bottom: 10px;
+}
+.description label{
+    margin-bottom: 15px;
+}
+.description textarea{
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 20px;
+}
+.description{
+    margin-bottom: 10px;
+}
+.name input,.Email input, .phonenumber input, .description input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.submit{
+    text-align: center;
+}
+.submit button{
+    width: 50%;
+    outline: none;
+    cursor: pointer;
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 11px 20px 11px 20px;
+    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    box-shadow: 0px 15px 24px 3px rgba(251, 161, 40, 0.42);
+}
